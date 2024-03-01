@@ -69,4 +69,15 @@ public abstract class BaseHouse {
     public void setType(HouseType type) {
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Type: " + type +
+                ", ID: " + id +
+                ", Price: " + price +
+                ", Square Meters: " + squareMeters +
+                ", Rooms: " + rooms +
+                ", Salons: " + salons;
+    }
+
 }
